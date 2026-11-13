@@ -3,9 +3,9 @@ layout: default
 title: About
 ---
 
-<figure class="avatar"><img src="{{ '/assets/img/author.svg' | relative_url }}" alt="Author Name" width="160" height="160"></figure>
+<figure class="avatar"><img src="{{ '/assets/img/author.svg' | relative_url }}" alt="Jennifer Blackstone" width="160" height="160"></figure>
 
-# Hi, I'm Author Name.
+# Hi, I'm Jennifer.
 
 Placeholder bio. A few sentences about who the author is, what they write, and why. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 

@@ -31,3 +31,7 @@ Push to `main`. It appears at `/books/slug/` and on the Books page, sorted by `o
 docker run --rm -p 4000:4000 -v "$PWD":/site -w /site ruby:3.3 \
   sh -c 'gem install github-pages webrick && jekyll serve --host 0.0.0.0'
 ```
+
+## Analytics
+
+Set `cloudflare_analytics_token` in `_config.yml` to the Cloudflare Web Analytics site token. The beacon only loads in production builds and only when the token is set.

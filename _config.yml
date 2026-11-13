@@ -1,10 +1,11 @@
 title: Wonderstone Books
-tagline: Author Name
-description: Books by Author Name.
-url: https://example.com
-author: Author Name
+tagline: Jennifer Blackstone
+description: Books by Jennifer Blackstone.
+url: https://wonderstonebooks.com
+author: Jennifer Blackstone
 
 github_username: wonderstonebooks
+cloudflare_analytics_token:
 
 markdown: kramdown
 kramdown:

@@ -23,5 +23,8 @@
   <footer class="site-footer">
     <span>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</span>
   </footer>
+  {% if jekyll.environment == 'production' and site.cloudflare_analytics_token %}
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_analytics_token }}"}'></script>
+  {% endif %}
 </body>
 </html>
