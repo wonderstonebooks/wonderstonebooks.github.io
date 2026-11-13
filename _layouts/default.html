@@ -21,6 +21,7 @@
     {{ content }}
   </main>
   <footer class="site-footer">
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
     <span>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</span>
   </footer>
   {% if jekyll.environment == 'production' and site.cloudflare_analytics_token %}
