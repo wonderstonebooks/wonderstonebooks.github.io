@@ -5,7 +5,7 @@ url: https://wonderstonebooks.com
 author: Jennifer Blackstone
 
 github_username: wonderstonebooks
-cloudflare_analytics_token:
+cloudflare_analytics_token: c3c310c911394be2be2696f5aab66dce
 
 markdown: kramdown
 kramdown:
