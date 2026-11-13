@@ -1,0 +1,33 @@
+title: Wonderstone Books
+tagline: Author Name
+description: Books by Author Name.
+url: https://example.com
+author: Author Name
+
+github_username: wonderstonebooks
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+collections:
+  books:
+    output: true
+    permalink: /books/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/card.svg
+  - scope:
+      type: books
+    values:
+      layout: book
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md

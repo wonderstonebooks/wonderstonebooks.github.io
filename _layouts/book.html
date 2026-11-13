@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="book">
+  <img class="cover" src="{{ page.cover | relative_url }}" alt="Cover of {{ page.title }}" width="240" height="360">
+  <div>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="meta">{{ page.subtitle }}</p>{% endif %}
+    {{ content }}
+    {% include buy-links.html links=page.buy %}
+  </div>
+</article>

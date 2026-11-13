@@ -1,0 +1,7 @@
+{% if include.links %}
+<ul class="buy-links">
+  {% for link in include.links %}
+  <li><a class="button" href="{{ link.url }}">{{ link.label }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
